@@ -278,3 +278,27 @@ section{
     width: 140px;
     height: 140px;
 }
+/* Awesome portfolio section styling here */
+.awesome_portfolio .products{
+    display: flex;
+    /*row-column still working but row-gap not working */
+    gap: 24px;
+}
+.portfolio_description{
+    width: 896px;
+}
+.product_items{
+    margin-top: 24px;
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    overflow: hidden;
+    /* border: 1px solid ; */
+}
+.product_items > img{
+    width: 100%;
+    transition: 400ms ease;
+}
+.product_items > img:hover{
+    transform: scale(1.08);
+}
