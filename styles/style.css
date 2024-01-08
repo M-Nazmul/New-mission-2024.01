@@ -176,3 +176,51 @@ section{
 .join_btn_one:hover{
      color: #d6d4d4;
 }
+/* Hotel joining section styling here  */
+.Join_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(#FFE7E7, #ffe7e700);
+}
+.join_item:nth-child(1){
+    
+}
+.join_description{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.Place_date_time{
+    color: #F00;
+}
+.join_item{
+    text-align: center;
+    
+}
+.join_now_btn{
+    color: #FFF;
+    gap: 10px;
+    text-align: center;
+    padding: 16px 32px;
+    margin: 48px auto;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 100ms;
+}
+.join_now_btn:hover{
+    background: rgb(253, 43, 43);
+}
+
