@@ -369,7 +369,8 @@ footer{
 .footer_items_content > .footer_social_links{
     margin: 48px auto;
 }
-.footer_social_links > img{
+.footer_social_links > a{
+    text-decoration: none;
     margin-right: 24px;
 }
 .footer_description, .footer_contact{
