@@ -368,6 +368,9 @@ section{
 .container_item{
     text-align: center;
 }
+.sub_newsletter{
+    margin-top: 40px;
+}
 .subscribe_description{
     max-width: 896px;
     margin: 0 auto 48px;
