@@ -26,15 +26,19 @@ section{
 /* Header section styling here */
 .banner{
     margin-top: 50px;
-    padding: 0 344px 177px ;
+    /* padding: 0 344px 177px ; */
     height: 600px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner-Image.png') no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
-
-
+}
+.banner_title{
+    max-width: 632px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
 }
 .new_year_title{
     margin-top: 177px;
@@ -251,7 +255,7 @@ section{
     padding: 30px;
 }
 
-.commin_year_24{
+.coming_year_24{
     color: #F00;
     margin-top: 80px;
     font-family: Inter;
@@ -298,11 +302,7 @@ section{
 .holidays_description{
     margin-bottom: 64px;
 }
-.holidays_sale_items{
-    /* position: relative; */
-    
-    
-}
+
 .holidays_img_content{
     display: flex;
     gap: 50px;
@@ -321,7 +321,7 @@ section{
 }
 .girls_img{
     position: relative;
-    width: 429px;
+    width: 430px;
     height: 434px;
     background-position-y: bottom;
     
@@ -350,8 +350,9 @@ section{
 .portfolio_description{
     width: 896px;
 }
+
 .product_items{
-    margin-top: 24px;
+    margin: 24px 0 0;
     width: 424px;
     height: 450px;
     border-radius: 16px;
@@ -419,7 +420,7 @@ footer{
     background: #070211;
 }
 .footer_content{
-    padding: 120px 140px;
+    padding: 120px 0;
 }
 .footer_items_content{
     display: flex;
