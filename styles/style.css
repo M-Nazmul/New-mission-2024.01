@@ -186,9 +186,6 @@ section{
     border-radius: 16px;
     background: linear-gradient(#FFE7E7, #ffe7e700);
 }
-.join_item:nth-child(1){
-    
-}
 .join_description{
     color: #070211;
     font-family: Inter;
@@ -281,7 +278,7 @@ section{
 /* Awesome portfolio section styling here */
 .awesome_portfolio .products{
     display: flex;
-    /*row-column still working but row-gap not working */
+    /* column-gap still working but row-gap not working */
     gap: 24px;
 }
 .portfolio_description{
@@ -318,12 +315,14 @@ section{
 }
 .subscribe {
     display: flex;
+    max-width: 648px;
+    margin: 0 auto;
 }
 .subscribe input[type='text']{
     width: 648px;
     padding: 25px 30px;
     border-radius: 50px 0 0 50px;
-    /* color: rgba(7, 2, 17, 0.30); */
+    color: #07021199;
     border: none;
     outline: none;
     text-align: left;
@@ -335,9 +334,8 @@ section{
     color: #0702114D;
 }
 .subscribe input[type='submit']{
-    /* height: 72px; */
-    position: relative;
-    margin-left: -10px;
+    /* position: relative;
+    margin-left: -10px; */
     padding: 24px 56px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -371,11 +369,9 @@ footer{
 .footer_items_content > .footer_social_links{
     margin: 48px auto;
 }
-
 .footer_social_links > img{
     margin-right: 24px;
 }
-
 .footer_description, .footer_contact{
     color: #FFF;
     text-align: left;
@@ -387,7 +383,6 @@ footer{
 .footer_description{
     max-width: 375px;
 }
-
 hr{
     height: 1px;
     background-color: #FFFFFF26;
